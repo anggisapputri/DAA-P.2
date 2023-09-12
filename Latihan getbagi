@@ -1,0 +1,6 @@
+def getbagi(myList):
+    bagi = 1
+    for item in myList:
+      bagi = bagi / item
+    return bagi
+getbagi([1,2,3])
